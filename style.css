@@ -25,24 +25,32 @@ body
 	background-color: #b13e53;
 }
 
-.footer
-{
-	color: white;
-	text-align: center;
-	font-family: Arial, Helvetics, sans-serif;
-	padding-top: 30px;
-	padding-bottom: : 100px;
+.footer {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #fff;
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "socialbar" "copyright"
 }
 
-.footerContent
-{
-	width: 400px;
+.socialicon {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+    width: auto;
 }
 
-.socialicon
-{
-	height: 30px;
-	width: auto;
+.socialBar {
+    grid-area: socialbar;
+}
+
+.copyright {
+    padding-top: 20px;
+    grid-area: copyright;
 }
 
 .content
