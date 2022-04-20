@@ -1,0 +1,140 @@
+@font-face 
+{
+    font-family: Honyaji;
+    src: url("fonts/HonyaJi-Re.ttf");
+    unicode-range: U+0020-007F, U+2190;
+}
+
+@font-face 
+{
+    font-family: Takumi;
+    src: url("fonts/takumi.ttf");
+    unicode-range: U+0020-007F, U+2190;
+}
+
+html, body {
+    font-family: Honyaji, consolas;
+    background-color: #211C30;/*#FFE8B5;*/
+    width:  100%;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+    image-rendering: pixelated;
+}
+
+
+#title
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 15%;
+}
+#sok_wit
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(-2px, -3px);
+    height: 100%;
+    max-width: 100vw;
+}
+#sok_zwart
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(3px, 4px);
+    height: 100%;
+    max-width: 100vw;
+}
+
+
+#vgc
+{
+    position: absolute;
+    text-align: center;
+    overflow-wrap: normal;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 100%;
+    font-size: 5vh;
+}
+
+#help
+{
+    position: absolute;
+    text-align: center;
+    overflow-wrap: normal;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 200%;
+    color: #F78874;
+    font-size: 5vh;
+    z-index: -1;
+}
+@media screen and (max-width: 60vh) {
+  #vgc {
+    font-size: 8vw;
+  }
+}
+
+#footer
+{
+    clear: both;
+    position: relative;
+    height: 12vh;
+    margin-top: -12.5vh;
+    text-align: center;
+    font-size: 2vh;
+    width: 150vh;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: default;
+}
+
+input
+{
+    height: 20px;
+}
+
+#newsletter
+{
+    font-size: 3vh;
+    margin-top: 0vw;
+    margin-bottom: 0.25vw;
+}
+
+#mce-EMAIL
+{
+    padding-left: 1vh;
+    height: 3vh;
+    border-radius: 3vh;
+    font-size: 2vh;
+}
+
+#mc-embedded-subscribe
+{
+    font-family: Honyaji;
+    border: none;
+    height: 4vh;
+    border-radius: 4vh;
+    font-size: 4vh;
+    margin-top: 0.5vh;
+    width: 25vh;
+    background-color: #FEAF00;
+    color: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+} 
+
+*:focus
+{
+    outline: none;
+}

@@ -1,0 +1,462 @@
+[
+    {
+        "name": "info",
+        "radius": 0.14,
+        "show_name": false,
+        "x": 0.47,
+        "y": 0.75,
+        "textscale": 1.45,
+        "text": "we make#a new game#every month##subscribe for 3$#a month!",
+        "color": "#4A3F6B",
+        "text_color": "#FFF7BE"
+    },
+    {
+        "name": "subscribe",
+        "image": "images/patreon_games.png",
+        "radius": 0.16,
+        "pops": true,
+        "show_name": "always",
+        "textscale": 0.75,
+        "url": "https://patreon.com/sokpop",
+        "x": 0.72,
+        "y": 0.5
+    },
+    {
+        "name": "home",
+        "image": "images/sokpop_home.png",
+        "textscale": 0.85,
+        "radius": 0.225,
+        "x": 0.29,
+        "y": 0.38,
+        "color": "#FFE8B5",
+        "bar_color": "#F74773",
+        "enhance_factor": 1,
+        "clip": 0.2,
+        "children": 
+        [
+            {
+                "name": "showreel",
+                "video": "video/trailer.mp4",
+                "x": 0.35,
+                "y": 0.18,
+                "show_name": "always",
+                "radius": 0.2,
+                "enhance_factor": 1.5,
+                "textscale": 0.82
+            },
+            {
+                "name": "about",
+                "image": "images/collective.png",
+                "radius": 0.225,
+                "x": 0.75,
+                "y": 0.42,
+                "color": "#EF2F5F",
+                "bar_color": "#F74773",
+                "enhance_factor": 1.1,
+                "show_name": "always",
+                "clip": 0.4,
+                "children": 
+                [
+                    {
+                        "name": "sokpop",
+                        "show_name": false,
+                        "color": "#FFF7BE",
+                        "text_color": "#211C30",
+                        "title": "sokpop#collective",
+                        "text": "is a group of four#game designers from#Utrecht.##since 2017, they've been#making new games#every month.",
+                        "textscale": 0.9,
+                        "radius": 0.2
+                    },
+                    {
+                        "name": "us",
+                        "video": "video/us2.mp4",
+                        "video_loop": true,
+                        "video_autoplay": true,
+                        "show_name": false,
+                        "radius": 0.2,
+                        "textscale": 0.7
+                    },
+                    {
+                        "name": "mail",
+                        "show_name": false,
+                        "color": "#211C30",
+                        "text_color": "#FFF7BE",
+                        "title": "#e-mail#sokpop!",
+                        "text": "us@sokpop.co",
+                        "url": "mailto:us@sokpop.co",
+                        "textscale": 1.3,
+                        "radius": 0.125
+                    },
+                    {
+                        "name": "tom",
+                        "image": "images/tom.png",
+                        "clip": 0.4,
+                        "radius": 0.15,
+                        "color": "#EEF2DC",
+                        "bar_color": "#EDDBC7",
+                        "children": 
+                        [
+                            {
+                                "name": "tommie",
+                                "image": "images/tom_real0.png",
+                                "radius": 0.2,
+                                "clip": 0.25,
+                                "show_name": false
+                            },
+                            {
+                                "name": "visje",
+                                "image": "images/visje.png",
+                                "radius": 0.1,
+                                "clip": 0.2,
+                                "show_name": false
+                            },
+                            {
+                                "name": "twitter",
+                                "image": "images/test2.png",
+                                "url": "https://twitter.com/TomBoogaart",
+                                "radius": 0.15
+                            },
+                            {
+                                "name": "money",
+                                "color": "#D9887C",
+                                "text_color": "#FFFFFF",
+                                "title": "gifs",
+                                "text": "tom is known for#illusively posting beautiful#gifs of his work on twitter##here at sokpop, we try#to get him to finish these#games and make us a#lot of money",
+                                "textscale": 0.9,
+                                "radius": 0.2,
+                                "show_name": false
+                            },
+                            {
+                                "name": "projects",
+                                "color": "#823B48",
+                                "text_color": "#FFFFFF",
+                                "title": "currently",
+                                "text": "tom is working#on Bernband's sequel,#Bernband, while also#making a bunch of small#experimental games along#the way##all under the#sokpop flag",
+                                "textscale": 0.9,
+                                "radius": 0.2,
+                                "show_name": false
+                            },
+                            {
+                                "name": "who",
+                                "color": "#E38259",
+                                "title": "tom",
+                                "text": "pingu fanboy and game#designer from Gouda city##tom's been making weird#games since forever,#among which the cult#classic hit game,#Bernband",
+                                "textscale": 0.9,
+                                "radius": 0.2,
+                                "show_name": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "rubna",
+                        "image": "images/ruben.png",
+                        "clip": 0.4,
+                        "radius": 0.15,
+                        "color": "#E56972",
+                        "bar_color": "#D3305C",
+                        "children": [
+                            {
+                                "name": "rubbie",
+                                "image": "images/ruben_real.png",
+                                "radius": 0.25,
+                                "clip": 0.2,
+                                "show_name": false
+                            },
+                            {
+                                "name": "twitter",
+                                "image": "images/rub_twitter.png",
+                                "url": "https://twitter.com/rubna_",
+                                "radius": 0.15
+                            },
+                            {
+                                "name": "now",
+                                "color": "#E03165",
+                                "text_color": "#211C30",
+                                "title": "now",
+                                "text": "as the relative success#of lisa has largely faded,#he struggles to find his#next big hit that will#shake up the world##good luck rub!",
+                                "radius": 0.2,
+                                "show_name": false
+                            },
+                            {
+                                "name": "what",
+                                "color": "#FF8C8C",
+                                "text_color": "#211C30",
+                                "textscale": 0.95,
+                                "text": "originally making#free games from his#bedroom, sokpop invited#him over for a game jam#in 2014, and he just#kinda never left##in his early days, rubna#made the impressionist#underground hit#lisa",
+                                "radius": 0.2,
+                                "show_name": false
+                            },
+                            {
+                                "name": "who",
+                                "color": "#FFCCA3",
+                                "text_color": "#211C30",
+                                "title": "who",
+                                "text": "22yo game designer#based in utrecht##youngest of the squad##picture shows him#on a biking trip",
+                                "radius": 0.2,
+                                "show_name": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "aran",
+                        "image": "images/aran.png",
+                        "clip": 0.4,
+                        "radius": 0.15,
+                        "color": "#111111",
+                        "text_color": "#FFFFFF",
+                        "children": 
+                        [
+                            {
+                                "name": "arie",
+                                "image": "images/aron.jpg",
+                                "radius": 0.25,
+                                "show_name": false
+                            },
+                            {
+                                "name": "twitter",
+                                "image": "images/aran.png",
+                                "url": "https://twitter.com/arankoning",
+                                "radius": 0.15
+                            },
+                            {
+                                "name": "tech",
+                                "show_name": false,
+                                "radius": 0.2,
+                                "title": "tech",
+                                "textscale": 0.9,
+                                "text": "having a CS background,#aran is the most technical#guy in sokpop, and has been#known to make every game#into an MMO in 2 hours##find out more on his#twitter page!",
+                                "text_color": "#ACA7A7",
+                                "color": "#1E1E1E"
+                            },
+                            {
+                                "name": "interests",
+                                "show_name": false,
+                                "radius": 0.2,
+                                "textscale": 0.9,
+                                "text": "besides games,#aran has a lot of#different interests#and is well-known for his#arduino projects Beak Beak#and Knife to Meet You,#as well as his many#musical endeavours##he does all this by#not sleeping",
+                                "text_color": "#FDFDFD",
+                                "color": "#5A5A5A"
+                            },
+                            {
+                                "name": "sadboy",
+                                "show_name": false,
+                                "radius": 0.2,
+                                "title": "aran",
+                                "textscale": 0.9,
+                                "text": "sokpops original sadboy,#as seen from this page,#he really hates color##finishing uni in '16, aran#has been doing a lot#of different projects#(and made money!)",
+                                "color": "#FCFCFC",
+                                "text_color": "#5B5B5B"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "tijmen",
+                        "image": "images/tijmen_shader.png",
+                        "clip": 0.4,
+                        "radius": 0.15,
+                        "enhance_factor": 2,
+                        "color": "#6FA67A",
+                        "bar_color": "#5A9473",
+                        "children": 
+                        [
+                            {
+                                "name": "tio",
+                                "image": "images/tijmen0.png",
+                                "radius": 0.075,
+                                "show_name": false
+                            },
+                            {
+                                "name": "backflip",
+                                "video": "video/backflip.mp4",
+                                "video_loop": true,
+                                "video_autoplay": true,
+                                "radius": 0.25,
+                                "textscale": 0.7
+                            },
+                            {
+                                "name": "twitter",
+                                "image": "images/tijmen_real.png",
+                                "url": "https://twitter.com/tijmentio",
+                                "radius": 0.15
+                            },
+                            {
+                                "name": "heart",
+                                "title": "IGF",
+                                "text": "-nominated for his#sword slice'em-up#Bamboo Heart in 2017.##Later released as part of#Sokpop's first-ever#commercial release,#Bamboo EP.",
+                                "radius": 0.2,
+                                "color": "#C7BF56",
+                                "text_color": "#1F1B29",
+                                "textscale": 0.95,
+                                "show_name": false
+                            },
+                            {
+                                "name": "now",
+                                "title": "Simmiland",
+                                "text": "After making the smash-#hit Simmiland in 2018,#Tijmen is now focused#on making the most content-#packed of the Patreon#games.##All while plotting#his next move.",
+                                "radius": 0.2,
+                                "color": "#3A8C78",
+                                "text_color": "#1F1B29",
+                                "textscale": 0.9,
+                                "show_name": false
+                            },
+                            {
+                                "name": "who",
+                                "title": "who",
+                                "text": "back-flip fanatic and#oldest of the band##after finishing the HKU,#he's been dead set on#leading sokpop into#commercial success",
+                                "radius": 0.2,
+                                "text_color": "#1F1B29",
+                                "show_name": false,
+                                "color": "#DDE084"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "games",
+                "color": "#C6AD47",
+                "bar_color": "#A5A038",
+                "image": "images/sokpop.png",
+                "radius": 0.2,
+                "show_name": "always",
+                "x": 0.37,
+                "y": 0.6,
+                "children":
+                [
+                    {
+                        "name": "info",
+                        "radius": 0.15,
+                        "show_name": false,
+                        "textscale": 1.1,
+                        "title": "games",
+                        "text": "a small selection#of our work.##we make a new#game every two#weeks with our#Patreon!",
+                        "color": "#EDDC61",
+                        "text_color": "#6A3940"
+                    },
+                    {
+                            "name": "dino#game",
+                            "video": "video/dino.mp4",
+                            "video_loop": true,
+                            "video_autoplay": true,
+                            "radius": 0.15
+                    },
+                    {
+                            "name": "moeras",
+                            "video": "video/moeras.mp4",
+                            "video_loop": true,
+                            "video_autoplay": true,
+                            "radius": 0.15
+                    },
+                    {
+                            "name": "umgebung",
+                            "video": "video/umgebung.mp4",
+                            "video_loop": true,
+                            "video_autoplay": true,
+                            "radius": 0.15,
+                            "textscale": 0.7
+                    },
+                    {
+                            "name": "simmiland",
+                            "image": "images/simmiland_0.png",
+                            "radius": 0.15,
+                            "textscale": 0.7
+                    },
+                    {
+                        "name": "tomscape",
+                        "video": "video/tomscape.mp4",
+                        "video_loop": true,
+                        "video_autoplay": true,
+                        "radius": 0.16,
+                        "textscale": 0.82
+                    },
+                    {
+                            "name": "more...",
+                            "radius": 0.1,
+                            "show_name": "always",
+                            "color": "#F4D030",
+                            "text_color": "#6A3940",
+                            "url": "https://sokpop.itch.io/"
+                    }
+                ]
+            },
+            {
+                "name": "twitter",
+                "image": "images/twitterMain0.png",
+                "radius": 0.1,  
+                "show_name": "always",
+                "x": 0.45,
+                "y": 0.9,
+                "url": "https://twitter.com/sokpopco"
+            },
+            {
+                "name": "patreon",
+                "image": "images/patreon_games.png",
+                "radius": 0.15,
+                "show_name": "always",
+                "textscale": 0.9,
+                "color": "#FFD88C",
+                "bar_color": "#F68D01",
+                "text_color": "#FFF7BE",
+                "x": 0.7,
+                "y": 0.77,
+                "children":
+                [
+                    {
+                        "name": "",
+                        "radius": 0,
+                        "color": "#FFD88C",
+                        "bar_color": "#F68D01",
+                        "text_color": "#FFF7BE"
+                    },
+                    {
+                        "name": "info",
+                        "radius": 0.14,
+                        "show_name": false,
+                        "textscale": 1.15,
+                        "title": "patreon",
+                        "text": "Sokpop makes a new#game every two weeks!##subscribe for 3$#a month on our#Patreon",
+                        "color": "#FEAF00",
+                        "text_color": "#6A3940"
+                    },
+                    {
+                        "name": " patreon ",
+                        "image": "images/patreon.png",
+                        "radius": 0.16,
+                        "pops": true,
+                        "textscale": 0.8,
+                        "url": "https://patreon.com/sokpop",
+                        "x": 0.7,
+                        "y": 0.77
+                    },
+                    {
+                        "name": "patreon#access",
+                        "radius": 0.12,
+                        "show_name": "always",
+                        "textscale": 0.9,
+                        "color": "#8AA866",
+                        "text_color": "#6A3940",
+                        "url": "https://sokpop.co/patreon_access/"
+                    }
+                ]
+            },
+            {
+                "name": "steam",
+                "image": "images/steam.png",
+                "radius": 0.13,
+                "x": 0.75,
+                "y": 0.05,
+                "show_name": "always",
+                "url": "https://store.steampowered.com/developer/sokpop"
+            },
+            {
+                "name": "discord",
+                "image": "images/discord.png",
+                "radius": 0.09,
+                "x": 0.66,
+                "y": 0.98,
+                "show_name": "always",
+                "url": "https://discordapp.com/invite/Ye3HrWW"
+            }
+        ]
+    }
+]
