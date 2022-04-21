@@ -17,8 +17,8 @@
                 "show_name": false,
                 "color": "#FFF7BE",
                 "text_color": "#211C30",
-                "title": "sokpop#collective",
-                "text": "is a group of four#game designers from#Utrecht.##since 2017, they've been#making new games#every month.",
+                "title": "IMIan",
+                "text": "#indie game dev#dedicated to creating#fun logic puzzles and#games that everyone#can enjoy.",
                 "textscale": 0.9,
                 "radius": 0.2
             },
@@ -36,9 +36,9 @@
                 "show_name": false,
                 "color": "#211C30",
                 "text_color": "#FFF7BE",
-                "title": "#e-mail#sokpop!",
-                "text": "us@sokpop.co",
-                "url": "mailto:us@sokpop.co",
+                "title": "#e-mail#IMIan!",
+                "text": "imian.info@gmail.com",
+                "url": "mailto:imian.info@gmail.com",
                 "textscale": 1.3,
                 "radius": 0.125
             },
@@ -102,22 +102,6 @@
                     }
                 ]
             }
-        ]
-    },
-    {
-        "name": "patreon",
-        "image": "images/patreon_games.png",
-        "radius": 0.15,
-        "pops": true,
-        "textscale": 0.9,
-        "url": "https://www.patreon.com/Vueltero",
-        "color": "#F86854",
-        "bar_color": "#052D49",
-        "text_color": "#FFF7BE",
-        "x": 0.7,
-        "y": 0.8,
-        "children":[
-            {}
         ]
     },
     {
