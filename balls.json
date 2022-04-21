@@ -123,10 +123,9 @@
     {
         "name": "gplay",
         "image": "images/gplay.png",
-        "radius": 0.13,
+        "radius": 0.15,
         "x": 0.75,
         "y": 0.05,
-        "show_name": "always",
         "url": "https://play.google.com/store/apps/dev?id=7486437188920833154"
     }
 ]
