@@ -9,7 +9,6 @@ var balls_data;
 var videoContainer; // object to hold video and associated info
 var bar_height = 0;
 var bar_height_spd = 0;
-var footer_height = 0;
 var device_is_mobile = false;
 var link_image;
 var play_image;
@@ -30,8 +29,6 @@ $(document).ready(function()
         device_is_mobile = true;
     }
 
-    if (device_is_mobile)
-        $("#footer").hide();
     //$("#title").hide();
 
     //-- link image
@@ -234,17 +231,12 @@ function draw_site_url(size)
     {
         bar_height_spd += (size * 1.5 - bar_height) * 0.05;
         vgc_t = -10;
-        footer_height += (-size * 0.2 - footer_height) * 0.2;
     }
     else
     //if (current_layer == 1)
     {
         bar_height_spd += (size * 3.3 - bar_height) * 0.2;
         bar_height_spd *= 0.5;
-        if (!device_is_mobile)
-            footer_height += (size * 2 - footer_height) * 0.2;
-        else
-            footer_height += (-size * 0.2 - footer_height) * 0.2;
         current_bar_color = "#F78874";
 
         if (vgc_t <= subtitle_string.length)
@@ -255,7 +247,7 @@ function draw_site_url(size)
     }
     ctx.fillRect(0, 0, canvas.width, bar_height);
     ctx.fillStyle = "#FFD88C";
-    ctx.fillRect(0, canvas.height - footer_height, canvas.width, canvas.height);
+    ctx.fillRect(0, canvas.height, canvas.width, canvas.height);
 
     //-- draw url thing
     ctx.globalAlpha = 0.5;
