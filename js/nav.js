@@ -59,8 +59,6 @@ function Home()
         //-- reset layer
         current_layer = 0;
         $("#title").show();
-        if (!device_is_mobile)
-            $("#footer").show();
     }
 }
 
