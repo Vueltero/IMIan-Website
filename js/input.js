@@ -46,7 +46,7 @@ function mouse_up()
 
 //-- mouse input
 $('html').on("mousedown", function(evt) {  
-    if (evt.clientY < canvas.height - footer_height)
+    if (evt.clientY < canvas.height)
     {
         evt.preventDefault();   
         mouse_down(evt.clientX / scale, evt.clientY / scale);
@@ -73,7 +73,7 @@ document.addEventListener("touchmove", function(evt) {
 
 document.addEventListener("touchstart", function(evt) {
     var ts = evt.touches[0];
-    if (ts.clientY < canvas.height - footer_height)
+    if (ts.clientY < canvas.height)
     {
         evt.preventDefault();   
     }
@@ -81,7 +81,7 @@ document.addEventListener("touchstart", function(evt) {
 }, {passive: false});
 document.addEventListener("touchend", function(evt) {
     var ts = evt.touches[0];
-    if (mouse.y < (canvas.height - footer_height) / scale)
+    if (mouse.y < (canvas.height) / scale)
         evt.preventDefault();   
     mouse.x = -100;
     mouse.y = -100;
