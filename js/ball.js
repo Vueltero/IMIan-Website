@@ -208,10 +208,10 @@ function Ball(name, title, json_index, layer, image_url, video_url, video_loop, 
         {
             cursor = 'pointer';
             rfac = 1.1;
-            var nam = name;
-            if (name == "home")
-                nam = "enter#sokzone";
-            if (this.text_t < nam.length && this.show_name && (!device_is_mobile || video_cancel))
+            //var nam = name;
+            //if (name == "home")
+            //    nam = "enter#sokzone";
+            if (this.text_t < name.length && this.show_name && (!device_is_mobile || video_cancel))
                 this.text_t += 0.25;
             if (this.pops)
             {
@@ -298,10 +298,10 @@ function Ball(name, title, json_index, layer, image_url, video_url, video_loop, 
             ctx.textAlign = "center";
             ctx.textBaseline="middle"; 
 
-            var nam = name;
-            if (name == "home")
-                nam = "enter#sokzone";
-            var str = nam.replace(/_/g, ' ');
+            //var nam = name;
+            //if (name == "home")
+            //    nam = "enter#sokzone";
+            var str = name.replace(/_/g, ' ');
             str = str.substr(0, this.text_t);
             str = str.split('#');
             var yplus = -(str.length - 1) * size / 2;
@@ -378,10 +378,11 @@ function Ball(name, title, json_index, layer, image_url, video_url, video_loop, 
 
     this.pop = function()
     {
-        if (current_layer == 0)
-            $("#title").show();
-        else
-            $("#title").hide();
+        //if (current_layer == 0)
+        //    $("#title").show();
+        //else
+        $("#title").hide();
+        $("#footer").hide();
         current_layer++;
         document.body.style.background = this.color;
         current_background_color = this.color;
