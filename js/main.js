@@ -211,7 +211,7 @@ function loop()
 var current_background_color;
 var current_bar_color = "#F78874";
 var url_t = 0;
-var subtitle_string = "Indie dev dedicated to creating fun logic puzzles and games that everyone can enjoy";
+var subtitle_string = "Indie Game Dev";
 var vgc_t = -10;
 function draw_site_url(size)
 {
