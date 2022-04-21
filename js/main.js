@@ -30,9 +30,9 @@ $(document).ready(function()
         device_is_mobile = true;
     }
 
-    //if (device_is_mobile)
+    if (device_is_mobile)
         $("#footer").hide();
-    $("#title").hide();
+    //$("#title").hide();
 
     //-- link image
     link_image = new Image(212, 212);
@@ -224,26 +224,26 @@ function draw_site_url(size)
     // draw url bar
     ctx.fillStyle = current_bar_color;//"#DBD28E";
         ctx.clearRect(0, 0, canvas.width, size * 5);
-    if (current_layer == 0)
-    {
-        bar_height = -size * 0.2;
-        bar_height_spd += (-size * 0.2 - bar_height) * 0.05;
-    }
-    else
-    if (current_layer > 1 || linked)
+    //if (current_layer == 0)
+    //{
+    //    bar_height = -size * 0.2;
+    //    bar_height_spd += (-size * 0.2 - bar_height) * 0.05;
+    //}
+    //else
+    if (current_layer > 0 || linked)
     {
         bar_height_spd += (size * 1.5 - bar_height) * 0.05;
         vgc_t = -10;
         footer_height += (-size * 0.2 - footer_height) * 0.2;
     }
     else
-    if (current_layer == 1)
+    //if (current_layer == 1)
     {
         bar_height_spd += (size * 3.3 - bar_height) * 0.2;
         bar_height_spd *= 0.5;
-        /*if (!device_is_mobile)
+        if (!device_is_mobile)
             footer_height += (size * 2 - footer_height) * 0.2;
-        else*/
+        else
             footer_height += (-size * 0.2 - footer_height) * 0.2;
         current_bar_color = "#F78874";
 
@@ -273,9 +273,9 @@ function draw_site_url(size)
     var str = new_page.replace('_', ' ');
     str = str.replace("-", "/");
     str = str.replace("-", "/");
-    str = str.replace("entersokzone/", '');
+    //str = str.replace("entersokzone/", '');
     var arrow = String.fromCharCode(0x2190);
-    if (current_layer>1)
+    if (current_layer>0)
         str = " " + arrow + " */" + str;
     else
         str = "";//" */" + str;
