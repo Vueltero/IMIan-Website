@@ -1,14 +1,4 @@
 [
-    /*{
-        "name": "showreel",
-        "video": "video/trailer.mp4",
-        "x": 0.35,
-        "y": 0.18,
-        "show_name": "always",
-        "radius": 0.2,
-        "enhance_factor": 1.5,
-        "textscale": 0.82
-    },*/
     {
         "name": "about",
         "image": "images/collective.png",
@@ -114,82 +104,6 @@
             }
         ]
     },
-    /*{
-        "name": "games",
-        "color": "#C6AD47",
-        "bar_color": "#A5A038",
-        "image": "images/sokpop.png",
-        "radius": 0.2,
-        "show_name": "always",
-        "x": 0.37,
-        "y": 0.6,
-        "children":
-        [
-            {
-                "name": "info",
-                "radius": 0.15,
-                "show_name": false,
-                "textscale": 1.1,
-                "title": "games",
-                "text": "a small selection#of our work.##we make a new#game every two#weeks with our#Patreon!",
-                "color": "#EDDC61",
-                "text_color": "#6A3940"
-            },
-            {
-                    "name": "dino#game",
-                    "video": "video/dino.mp4",
-                    "video_loop": true,
-                    "video_autoplay": true,
-                    "radius": 0.15
-            },
-            {
-                    "name": "moeras",
-                    "video": "video/moeras.mp4",
-                    "video_loop": true,
-                    "video_autoplay": true,
-                    "radius": 0.15
-            },
-            {
-                    "name": "umgebung",
-                    "video": "video/umgebung.mp4",
-                    "video_loop": true,
-                    "video_autoplay": true,
-                    "radius": 0.15,
-                    "textscale": 0.7
-            },
-            {
-                    "name": "simmiland",
-                    "image": "images/simmiland_0.png",
-                    "radius": 0.15,
-                    "textscale": 0.7
-            },
-            {
-                "name": "tomscape",
-                "video": "video/tomscape.mp4",
-                "video_loop": true,
-                "video_autoplay": true,
-                "radius": 0.16,
-                "textscale": 0.82
-            },
-            {
-                    "name": "more...",
-                    "radius": 0.1,
-                    "show_name": "always",
-                    "color": "#F4D030",
-                    "text_color": "#6A3940",
-                    "url": "https://sokpop.itch.io/"
-            }
-        ]
-    },*/
-    /*{
-        "name": "twitter",
-        "image": "images/-.png",
-        "radius": 0.1,  
-        "show_name": "always",
-        "x": 0.45,
-        "y": 0.9,
-        "url": "https://twitter.com/-"
-    },*/
     {
         "name": "patreon",
         "image": "images/patreon_games.png",
@@ -206,15 +120,6 @@
             {}
         ]
     },
-    /*{
-        "name": "steam",
-        "image": "images/steam.png",
-        "radius": 0.13,
-        "x": 0.75,
-        "y": 0.05,
-        "show_name": "always",
-        "url": "https://store.steampowered.com/developer/-"
-    },*/
     {
         "name": "gplay",
         "image": "images/gplay.png",
@@ -223,14 +128,5 @@
         "y": 0.05,
         "show_name": "always",
         "url": "https://play.google.com/store/apps/dev?id=7486437188920833154"
-    },
-    /*{
-        "name": "discord",
-        "image": "images/discord.png",
-        "radius": 0.09,
-        "x": 0.66,
-        "y": 0.98,
-        "show_name": "always",
-        "url": "https://discordapp.com/invite/-"
-    }*/
+    }
 ]
