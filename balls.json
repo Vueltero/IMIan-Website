@@ -1,12 +1,5 @@
 [
     {
-        "name": "",
-        "radius": 0,
-        "color": "#FFD88C",
-        "bar_color": "#F68D01",
-        "text_color": "#FFF7BE"
-    },
-    {
         "name": "showreel",
         "video": "video/trailer.mp4",
         "x": 0.35,
@@ -201,51 +194,16 @@
         "name": "patreon",
         "image": "images/patreon_games.png",
         "radius": 0.15,
-        "show_name": "always",
+        "pops": true,
         "textscale": 0.9,
-        "color": "#FFD88C",
-        "bar_color": "#F68D01",
+        "url": "https://www.patreon.com/Vueltero",
+        "color": "#F86854",
+        "bar_color": "#052D49",
         "text_color": "#FFF7BE",
         "x": 0.7,
-        "y": 0.77,
-        "children":
-        [
-            {
-                "name": "",
-                "radius": 0,
-                "color": "#FFD88C",
-                "bar_color": "#F68D01",
-                "text_color": "#FFF7BE"
-            },
-            {
-                "name": "info",
-                "radius": 0.14,
-                "show_name": false,
-                "textscale": 1.15,
-                "title": "patreon",
-                "text": "Sokpop makes a new#game every two weeks!##subscribe for 3$#a month on our#Patreon",
-                "color": "#FEAF00",
-                "text_color": "#6A3940"
-            },
-            {
-                "name": " patreon ",
-                "image": "images/patreon.png",
-                "radius": 0.16,
-                "pops": true,
-                "textscale": 0.8,
-                "url": "https://www.patreon.com/Vueltero",
-                "x": 0.7,
-                "y": 0.77
-            },
-            {
-                "name": "patreon#access",
-                "radius": 0.12,
-                "show_name": "always",
-                "textscale": 0.9,
-                "color": "#8AA866",
-                "text_color": "#6A3940",
-                "url": "https://sokpop.co/patreon_access/"
-            }
+        "y": 0.8,
+        "children":[
+            {}
         ]
     },
     {
