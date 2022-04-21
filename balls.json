@@ -1,5 +1,5 @@
 [
-    {
+    /*{
         "name": "showreel",
         "video": "video/trailer.mp4",
         "x": 0.35,
@@ -8,7 +8,7 @@
         "radius": 0.2,
         "enhance_factor": 1.5,
         "textscale": 0.82
-    },
+    },*/
     {
         "name": "about",
         "image": "images/collective.png",
@@ -114,7 +114,7 @@
             }
         ]
     },
-    {
+    /*{
         "name": "games",
         "color": "#C6AD47",
         "bar_color": "#A5A038",
@@ -180,16 +180,16 @@
                     "url": "https://sokpop.itch.io/"
             }
         ]
-    },
-    {
+    },*/
+    /*{
         "name": "twitter",
-        "image": "images/twitterMain0.png",
+        "image": "images/-.png",
         "radius": 0.1,  
         "show_name": "always",
         "x": 0.45,
         "y": 0.9,
-        "url": "https://twitter.com/sokpopco"
-    },
+        "url": "https://twitter.com/-"
+    },*/
     {
         "name": "patreon",
         "image": "images/patreon_games.png",
@@ -206,22 +206,31 @@
             {}
         ]
     },
-    {
+    /*{
         "name": "steam",
         "image": "images/steam.png",
         "radius": 0.13,
         "x": 0.75,
         "y": 0.05,
         "show_name": "always",
-        "url": "https://store.steampowered.com/developer/sokpop"
-    },
+        "url": "https://store.steampowered.com/developer/-"
+    },*/
     {
+        "name": "gplay",
+        "image": "images/gplay.png",
+        "radius": 0.13,
+        "x": 0.75,
+        "y": 0.05,
+        "show_name": "always",
+        "url": "https://play.google.com/store/apps/dev?id=7486437188920833154"
+    },
+    /*{
         "name": "discord",
         "image": "images/discord.png",
         "radius": 0.09,
         "x": 0.66,
         "y": 0.98,
         "show_name": "always",
-        "url": "https://discordapp.com/invite/Ye3HrWW"
-    }
+        "url": "https://discordapp.com/invite/-"
+    }*/
 ]
