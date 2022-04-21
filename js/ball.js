@@ -382,7 +382,6 @@ function Ball(name, title, json_index, layer, image_url, video_url, video_loop, 
         //    $("#title").show();
         //else
         $("#title").hide();
-        $("#footer").hide();
         current_layer++;
         document.body.style.background = this.color;
         current_background_color = this.color;
@@ -432,7 +431,6 @@ function Ball(name, title, json_index, layer, image_url, video_url, video_loop, 
         {
             window.location.href = this.url;
             $("#title").hide();
-            $("#footer").hide();
             linked = true;
             for (var i = 0; i < ball_num; i++)
                 balls[i].delete();
@@ -497,14 +495,14 @@ function Ball(name, title, json_index, layer, image_url, video_url, video_loop, 
             this.x = canvas.width / scale - this.radius;
         }
             //- bottom
-        if (this.y + this.radius > (canvas.height - footer_height) / scale)
+        if (this.y + this.radius > (canvas.height) / scale)
         {
             if (this.vspd > 0)
             {
                 this.vspd *= -bounce_f;
                 //this.rspd += this.vspd * 0.5;
             }
-            this.y = (canvas.height - footer_height) / scale - this.radius;
+            this.y = (canvas.height) / scale - this.radius;
         }
 
             //- laat los met draggen
