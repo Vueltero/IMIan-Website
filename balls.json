@@ -1,27 +1,5 @@
 [
     {
-        "name": "info",
-        "radius": 0.14,
-        "show_name": false,
-        "x": 0.47,
-        "y": 0.75,
-        "textscale": 1.45,
-        "text": "we make#a new game#every month##subscribe for 3$#a month!",
-        "color": "#4A3F6B",
-        "text_color": "#FFF7BE"
-    },
-    {
-        "name": "subscribe",
-        "image": "images/patreon_games.png",
-        "radius": 0.16,
-        "pops": true,
-        "show_name": "always",
-        "textscale": 0.75,
-        "url": "https://patreon.com/sokpop",
-        "x": 0.72,
-        "y": 0.5
-    },
-    {
         "name": "home",
         "image": "images/sokpop_home.png",
         "textscale": 0.85,
