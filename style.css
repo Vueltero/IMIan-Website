@@ -84,21 +84,6 @@ html, body {
   }
 }
 
-#footer
-{
-    clear: both;
-    position: relative;
-    height: 12vh;
-    margin-top: -12.5vh;
-    text-align: center;
-    font-size: 2vh;
-    width: 150vh;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: default;
-}
-
 input
 {
     height: 20px;
