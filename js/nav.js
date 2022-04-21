@@ -40,7 +40,7 @@ var current_layer = 0;
 function Home()
 {
     var aspect = canvas.width / canvas.height;
-    if (current_layer > 1)
+    if (current_layer > 0)
     {
         document.body.style.background = "#FFE8B5";
         //-- restore popped balls
