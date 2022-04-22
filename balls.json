@@ -18,8 +18,8 @@
                 "color": "#FFF7BE",
                 "text_color": "#211C30",
                 "title": "IMIan",
-                "text": "indie game dev dedicated to#creating fun logic puzzles and#games that everyone can enjoy.##currently working on my first#steam game, a top-down space#RTS-RPG hybrid game",
-                "textscale": 0.7,
+                "text": "##indie game dev dedicated to#creating fun logic puzzles and#games that everyone can enjoy.##currently working on my first#steam game, a top-down space#rts-rpg hybrid game.",
+                "textscale": 0.8,
                 "radius": 0.2
             },
             {
@@ -36,14 +36,14 @@
                 "show_name": false,
                 "color": "#211C30",
                 "text_color": "#FFF7BE",
-                "title": "#e-mail#IMIan!",
-                "text": "imian.info#@gmail.com",
+                "title": "e-mail#IMIan",
+                "text": "imian.info@gmail.com",
                 "url": "mailto:imian.info@gmail.com",
-                "textscale": 1.3,
+                "textscale": 0.9,
                 "radius": 0.125
             },
             {
-                "name": "Agustin Vuelta#aka Vueltero",
+                "name": "about me",
                 "image": "images/vueltero.png",
                 "clip": 0.4,
                 "radius": 0.15,
