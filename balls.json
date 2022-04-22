@@ -17,8 +17,8 @@
                 "show_name": false,
                 "color": "#FFF7BE",
                 "text_color": "#211C30",
-                "title": "IMIan",
-                "text": "##indie game dev dedicated to#creating fun logic puzzles and#games that everyone can enjoy.##currently working on my first#steam game, a top-down space#rts-rpg hybrid game.",
+                "title": "#IMIan",
+                "text": "#indie game dev dedicated to#creating fun logic puzzles and#games that everyone can enjoy.##currently working on my first#steam game, a top-down space#rts-rpg hybrid game.",
                 "textscale": 0.8,
                 "radius": 0.2
             },
@@ -36,10 +36,10 @@
                 "show_name": false,
                 "color": "#211C30",
                 "text_color": "#FFF7BE",
-                "title": "e-mail#IMIan",
+                "title": "#e-mail#IMIan",
                 "text": "imian.info@gmail.com",
                 "url": "mailto:imian.info@gmail.com",
-                "textscale": 0.9,
+                "textscale": 1.1,
                 "radius": 0.125
             },
             {
@@ -78,7 +78,7 @@
                 "show_name": false,
                 "textscale": 1.1,
                 "title": "my games",
-                "text": "##•Light Up, a logic puzzle for android##•La Cuarta Dimensión, my GOTO#Game Jam 2021 submission#- 2nd Place Award##•TBA, my upcoming sci-fi Steam game",
+                "text": "#•Light Up, a logic puzzle for android##•La Cuarta Dimensión, my GOTO#Game Jam 2021 submission#- 2nd Place Award##•TBA, my upcoming Steam game,#a top-down space rts-rpg hybrid game",
                 "color": "#EDDC61",
                 "text_color": "#6A3940",
                 "textscale": 0.7
@@ -89,7 +89,7 @@
                 "video_loop": true,
                 "video_autoplay": true,
                 "radius": 0.16,
-                "textscale": 0.7
+                "textscale": 0.6
             },
             {
                 "name": "La Cuarta#Dimensión",
