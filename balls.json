@@ -86,23 +86,19 @@
                 "video": "video/trailer.mp4",
                 "video_loop": true,
                 "video_autoplay": true,
-                "radius": 0.16,
-                "textscale": 1,
-                "show_name": false
+                "radius": 0.16
             },
             {
                 "name": "LaCuartaDimensión",
                 "video": "video/trailer.mp4",
                 "video_loop": true,
                 "video_autoplay": true,
-                "radius": 0.16,
-                "show_name": false
+                "radius": 0.16
             },
             {
                 "name": "TBA",
                 "image": "images/TBA.png",
-                "radius": 0.16,
-                "show_name": false
+                "radius": 0.16
             },
         ]
     }
