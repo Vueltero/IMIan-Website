@@ -43,14 +43,12 @@
                 "radius": 0.125
             },
             {
-                "name": "AgustinVueltaakaVueltero",
+                "name": "Agustin Vuelta#aka Vueltero",
                 "image": "images/vueltero.png",
                 "clip": 0.4,
                 "radius": 0.15,
                 "color": "#EEF2DC",
-                "bar_color": "#EDDBC7",
-                "children":
-                [{}]
+                "bar_color": "#EDDBC7"
             }
         ]
     },
@@ -75,30 +73,31 @@
         [
             {
                 "name": "info",
-                "radius": 0.15,
+                "radius": 0.2,
                 "show_name": false,
                 "textscale": 1.1,
                 "title": "games",
                 "text": "•Light Up, a logic puzzle for android##•La Cuarta Dimensión,#my GOTO Game Jam 2021 submission - 2nd Place Award",
                 "color": "#EDDC61",
-                "text_color": "#6A3940"
+                "text_color": "#6A3940",
+                "textscale": 0.7
             },
             {
-                "name": "LightUpLogicPuzzle",
+                "name": "Light Up:#Logic Puzzle",
                 "video": "video/trailer.mp4",
                 "video_loop": true,
                 "video_autoplay": true,
                 "radius": 0.16
             },
             {
-                "name": "LaCuartaDimension",
+                "name": "La Cuarta#Dimensión",
                 "video": "video/trailer.mp4",
                 "video_loop": true,
                 "video_autoplay": true,
                 "radius": 0.16
             },
             {
-                "name": "tba",
+                "name": "TBA",
                 "image": "images/TBA.png",
                 "radius": 0.16
             }
