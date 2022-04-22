@@ -13,7 +13,7 @@
         "children": 
         [
             {
-                "name": "sokpop",
+                "name": "imian",
                 "show_name": false,
                 "color": "#FFF7BE",
                 "text_color": "#211C30",
@@ -23,8 +23,8 @@
                 "radius": 0.2
             },
             {
-                "name": "us",
-                "video": "video/us2.mp4",
+                "name": "mygames",
+                "video": "video/mygames.mp4",
                 "video_loop": true,
                 "video_autoplay": true,
                 "show_name": false,
@@ -37,7 +37,7 @@
                 "color": "#211C30",
                 "text_color": "#FFF7BE",
                 "title": "#e-mail#IMIan!",
-                "text": "imian.info@gmail.com",
+                "text": "imian.info#@gmail.com",
                 "url": "mailto:imian.info@gmail.com",
                 "textscale": 1.3,
                 "radius": 0.125
