@@ -43,7 +43,7 @@
                 "radius": 0.125
             },
             {
-                "name": "Agustin Vuelta#aka Vueltero",
+                "name": "AgustinVueltaakaVueltero",
                 "image": "images/vueltero.png",
                 "clip": 0.4,
                 "radius": 0.15,
@@ -82,7 +82,7 @@
                 "text_color": "#6A3940"
             },
             {
-                "name": "Light Up:#Logic Puzzle",
+                "name": "LightUpLogicPuzzle",
                 "video": "video/trailer.mp4",
                 "video_loop": true,
                 "video_autoplay": true,
@@ -91,7 +91,7 @@
                 "show_name": false
             },
             {
-                "name": "La Cuarta#Dimensión",
+                "name": "LaCuartaDimensión",
                 "video": "video/trailer.mp4",
                 "video_loop": true,
                 "video_autoplay": true,
