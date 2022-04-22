@@ -84,6 +84,21 @@ html, body {
   }
 }
 
+#footer
+{
+    clear: both;
+    position: relative;
+    height: 12vh;
+    margin-top: -12.5vh;
+    text-align: center;
+    font-size: 2vh;
+    width: 150vh;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: default;
+}
+
 input
 {
     height: 20px;
@@ -122,4 +137,34 @@ input
 *:focus
 {
     outline: none;
+}
+
+/*=============== FOOTER ===============*/
+.footer__rights {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  text-align: center;
+}
+
+.footer__copy, .footer__terms-link {
+  font-size: .813rem;
+  color: hsl(1, 8%, 60%);
+}
+
+.footer__terms {
+  display: flex;
+  column-gap: 1.5rem;
+  justify-content: center;
+}
+
+.footer__terms-link:hover {
+  color: hsl(1, 24%, 35%);
+}
+
+@media screen and (min-width: 768px) {
+  .footer__rights {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
