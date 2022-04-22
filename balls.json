@@ -43,64 +43,12 @@
                 "radius": 0.125
             },
             {
-                "name": "tom",
-                "image": "images/tom.png",
+                "name": "Agustin Vuelta#aka Vueltero",
+                "image": "images/vueltero.png",
                 "clip": 0.4,
                 "radius": 0.15,
                 "color": "#EEF2DC",
-                "bar_color": "#EDDBC7",
-                "children": 
-                [
-                    {
-                        "name": "tommie",
-                        "image": "images/tom_real0.png",
-                        "radius": 0.2,
-                        "clip": 0.25,
-                        "show_name": false
-                    },
-                    {
-                        "name": "visje",
-                        "image": "images/visje.png",
-                        "radius": 0.1,
-                        "clip": 0.2,
-                        "show_name": false
-                    },
-                    {
-                        "name": "twitter",
-                        "image": "images/test2.png",
-                        "url": "https://twitter.com/TomBoogaart",
-                        "radius": 0.15
-                    },
-                    {
-                        "name": "money",
-                        "color": "#D9887C",
-                        "text_color": "#FFFFFF",
-                        "title": "gifs",
-                        "text": "tom is known for#illusively posting beautiful#gifs of his work on twitter##here at sokpop, we try#to get him to finish these#games and make us a#lot of money",
-                        "textscale": 0.9,
-                        "radius": 0.2,
-                        "show_name": false
-                    },
-                    {
-                        "name": "projects",
-                        "color": "#823B48",
-                        "text_color": "#FFFFFF",
-                        "title": "currently",
-                        "text": "tom is working#on Bernband's sequel,#Bernband, while also#making a bunch of small#experimental games along#the way##all under the#sokpop flag",
-                        "textscale": 0.9,
-                        "radius": 0.2,
-                        "show_name": false
-                    },
-                    {
-                        "name": "who",
-                        "color": "#E38259",
-                        "title": "tom",
-                        "text": "pingu fanboy and game#designer from Gouda city##tom's been making weird#games since forever,#among which the cult#classic hit game,#Bernband",
-                        "textscale": 0.9,
-                        "radius": 0.2,
-                        "show_name": false
-                    }
-                ]
+                "bar_color": "#EDDBC7"
             }
         ]
     },
@@ -111,5 +59,51 @@
         "x": 0.75,
         "y": 0.05,
         "url": "https://play.google.com/store/apps/dev?id=7486437188920833154"
+    },
+    {
+        "name": "games",
+        "color": "#C6AD47",
+        "bar_color": "#A5A038",
+        "image": "images/lightup.png",
+        "radius": 0.2,
+        "show_name": "always",
+        "x": 0.37,
+        "y": 0.6,
+        "children":
+        [
+            {
+                "name": "info",
+                "radius": 0.15,
+                "show_name": false,
+                "textscale": 1.1,
+                "title": "my games",
+                "text": "•Light Up, a logic puzzle for android##•La Cuarta Dimensión,#my GOTO Game Jam 2021 submission - 2nd Place Award",
+                "color": "#EDDC61",
+                "text_color": "#6A3940"
+            },
+            {
+                "name": "Light Up:#Logic Puzzle",
+                "video": "video/trailer.mp4",
+                "video_loop": true,
+                "video_autoplay": true,
+                "radius": 0.16,
+                "textscale": 1,
+                "show_name": false
+            },
+            {
+                "name": "La Cuarta#Dimensión",
+                "video": "video/trailer.mp4",
+                "video_loop": true,
+                "video_autoplay": true,
+                "radius": 0.16,
+                "show_name": false
+            },
+            {
+                "name": "TBA",
+                "image": "images/TBA.png",
+                "radius": 0.16,
+                "show_name": false
+            },
+        ]
     }
 ]
