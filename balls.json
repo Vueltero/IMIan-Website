@@ -48,7 +48,9 @@
                 "clip": 0.4,
                 "radius": 0.15,
                 "color": "#EEF2DC",
-                "bar_color": "#EDDBC7"
+                "bar_color": "#EDDBC7",
+                "children":
+                [{}]
             }
         ]
     },
@@ -76,7 +78,7 @@
                 "radius": 0.15,
                 "show_name": false,
                 "textscale": 1.1,
-                "title": "my games",
+                "title": "games",
                 "text": "•Light Up, a logic puzzle for android##•La Cuarta Dimensión,#my GOTO Game Jam 2021 submission - 2nd Place Award",
                 "color": "#EDDC61",
                 "text_color": "#6A3940"
@@ -89,17 +91,17 @@
                 "radius": 0.16
             },
             {
-                "name": "LaCuartaDimensión",
+                "name": "LaCuartaDimension",
                 "video": "video/trailer.mp4",
                 "video_loop": true,
                 "video_autoplay": true,
                 "radius": 0.16
             },
             {
-                "name": "TBA",
+                "name": "tba",
                 "image": "images/TBA.png",
                 "radius": 0.16
-            },
+            }
         ]
     }
 ]
