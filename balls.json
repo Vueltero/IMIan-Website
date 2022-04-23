@@ -63,7 +63,7 @@
     },
     {
         "name": "games",
-        "color": "#1a1c2c",
+        "color": "#15161e",
         "bar_color": "#101014",
         "image": "images/games.png",
         "radius": 0.2,
