@@ -42,7 +42,7 @@ function Home()
     var aspect = canvas.width / canvas.height;
     if (current_layer > 0)
     {
-        document.body.style.background = "#FFE8B5";
+        document.body.style.background = "#333c57";
         //-- restore popped balls
         for (var i = 0; i < balls_data.length; i++)
         {
