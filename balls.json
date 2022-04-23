@@ -5,8 +5,8 @@
         "radius": 0.225,
         "x": 0.75,
         "y": 0.42,
-        "color": "#EF2F5F",
-        "bar_color": "#F74773",
+        "color": "#a7f070",
+        "bar_color": "#38b764",
         "enhance_factor": 1.1,
         "show_name": "always",
         "clip": 0.4,
@@ -47,8 +47,8 @@
                 "image": "images/vueltero.png",
                 "clip": 0.4,
                 "radius": 0.15,
-                "color": "#EEF2DC",
-                "bar_color": "#EDDBC7",
+                "color": "#38b764",
+                "bar_color": "#257179",
                 "textscale": 0.7
             }
         ]
@@ -63,8 +63,8 @@
     },
     {
         "name": "games",
-        "color": "#C6AD47",
-        "bar_color": "#A5A038",
+        "color": "#3b5dc9",
+        "bar_color": "#29366f",
         "image": "images/games.png",
         "radius": 0.2,
         "show_name": "always",
