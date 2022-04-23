@@ -65,7 +65,7 @@
         "name": "games",
         "color": "#C6AD47",
         "bar_color": "#A5A038",
-        "image": "images/lightup.png",
+        "image": "images/games.png",
         "radius": 0.2,
         "show_name": "always",
         "x": 0.37,
