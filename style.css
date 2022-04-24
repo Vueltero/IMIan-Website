@@ -14,7 +14,7 @@
 
 html, body {
     font-family: Honyaji, consolas;
-    background-color: #ffcd75;
+    background-color: #ef7d57;
     width:  100%;
     height: 100%;
     margin: 0px;
@@ -74,7 +74,7 @@ html, body {
     right: 0;
     margin: auto;
     top: 200%;
-    color: #ffcd75;
+    color: #ef7d57;
     font-size: 5vh;
     z-index: -1;
 }
