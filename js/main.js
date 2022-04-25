@@ -206,7 +206,7 @@ function loop()
 }
 
 var current_background_color;
-var current_bar_color = "#ff9a58";
+var current_bar_color = "#f68b6a";
 var url_t = 0;
 var subtitle_string = "Indie Game Dev";
 var vgc_t = -10;
@@ -237,7 +237,7 @@ function draw_site_url(size)
     {
         bar_height_spd += (size * 3.3 - bar_height) * 0.2;
         bar_height_spd *= 0.5;
-        current_bar_color = "#ff9a58";
+        current_bar_color = "#f68b6a";
 
         if (vgc_t <= subtitle_string.length)
         {
