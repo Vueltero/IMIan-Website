@@ -53,9 +53,34 @@
                 "children":
                 [
                     {
-                        "name": "TBA",
-                        "image": "images/vueltero.png",
-                        "radius": 0.16
+                        "name": "youtube",
+                        "image": "images/youtube.png",
+                        "radius": 0.16,
+                        "url": "https://www.youtube.com/c/Vueltero"
+                    },
+                    {
+                        "name": "discord",
+                        "image": "images/discord.png",
+                        "radius": 0.16,
+                        "url": "https://discord.com/invite/kAuz5aQ"
+                    },
+                    {
+                        "name": "steam",
+                        "image": "images/steam.png",
+                        "radius": 0.16,
+                        "url": "https://steamcommunity.com/id/Vueltero"
+                    },
+                    {
+                        "name": "patreon",
+                        "image": "images/patreon.png",
+                        "radius": 0.16,
+                        "url": "https://www.patreon.com/Vueltero"
+                    },
+                    {
+                        "name": "instagram",
+                        "image": "images/instagram.png",
+                        "radius": 0.16,
+                        "url": "https://www.instagram.com/agustinvuelta"
                     }
                 ]
             }
