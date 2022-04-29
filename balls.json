@@ -43,7 +43,7 @@
                 "radius": 0.125
             },
             {
-                "name": "about me",
+                "name": "me",
                 "image": "images/vueltero.png",
                 "clip": 0.4,
                 "radius": 0.15,
