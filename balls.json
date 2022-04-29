@@ -55,31 +55,26 @@
                     {
                         "name": "youtube",
                         "image": "images/youtube.png",
-                        "url": "https://www.youtube.com/c/Vueltero",
                         "radius": 0.16
                     },
                     {
                         "name": "discord",
                         "image": "images/discord.png",
-                        "url": "https://discord.com/invite/kAuz5aQ",
                         "radius": 0.16
                     },
                     {
                         "name": "steam",
                         "image": "images/steam.png",
-                        "url": "https://steamcommunity.com/id/Vueltero",
                         "radius": 0.16
                     },
                     {
                         "name": "patreon",
                         "image": "images/patreon.png",
-                        "url": "https://www.patreon.com/Vueltero",
                         "radius": 0.16
                     },
                     {
                         "name": "instagram",
                         "image": "images/instagram.png",
-                        "url": "https://www.instagram.com/agustinvuelta",
                         "radius": 0.16
                     }
                 ]
