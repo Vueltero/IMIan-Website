@@ -69,6 +69,8 @@
                     },
                     {
                         "name": "patreon",
+                        "color": "#FF424D",
+                        "bar_color": "#FF424D",
                         "image": "images/patreon.png",
                         "radius": 0.16
                     },
