@@ -55,32 +55,32 @@
                     {
                         "name": "youtube",
                         "image": "images/youtube.png",
-                        "radius": 0.16,
-                        "url": "https://www.youtube.com/c/Vueltero"
+                        "url": "https://www.youtube.com/c/Vueltero",
+                        "radius": 0.16
                     },
                     {
                         "name": "discord",
                         "image": "images/discord.png",
-                        "radius": 0.16,
-                        "url": "https://discord.com/invite/kAuz5aQ"
+                        "url": "https://discord.com/invite/kAuz5aQ",
+                        "radius": 0.16
                     },
                     {
                         "name": "steam",
                         "image": "images/steam.png",
-                        "radius": 0.16,
-                        "url": "https://steamcommunity.com/id/Vueltero"
+                        "url": "https://steamcommunity.com/id/Vueltero",
+                        "radius": 0.16
                     },
                     {
                         "name": "patreon",
                         "image": "images/patreon.png",
-                        "radius": 0.16,
-                        "url": "https://www.patreon.com/Vueltero"
+                        "url": "https://www.patreon.com/Vueltero",
+                        "radius": 0.16
                     },
                     {
                         "name": "instagram",
                         "image": "images/instagram.png",
-                        "radius": 0.16,
-                        "url": "https://www.instagram.com/agustinvuelta"
+                        "url": "https://www.instagram.com/agustinvuelta",
+                        "radius": 0.16
                     }
                 ]
             }
