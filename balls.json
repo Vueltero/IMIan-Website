@@ -128,9 +128,58 @@
                 "children":
                 [
                     {
-                        "name": "TBA",
-                        "image": "images/vueltero.png",
-                        "radius": 0.16
+                        "name": "light up",
+                        "show_name": false,
+                        "color": "#FFF7BE",
+                        "text_color": "#211C30",
+                        "title": "Light Up:#Logic Puzzle",
+                        "text": "Place light bulbs#on the grid so that#every white square is lit.",
+                        "textscale": 0.9,
+                        "radius": 0.2
+                    },
+                    {
+                        "name": "trailer",
+                        "video": "video/trailer.mp4",
+                        "video_loop": true,
+                        "video_autoplay": true,
+                        "show_name": false,
+                        "radius": 0.2,
+                        "textscale": 0.7
+                    },
+                    {
+                        "name": "play",
+                        "image": "images/gplay.png",
+                        "url": "https://play.google.com/store/apps/details?id=com.IMIan.LightUpLogicPuzzle",
+                        "radius": 0.125
+                    },
+                    {
+                        "name": "lu2",
+                        "show_name": false,
+                        "image": "images/lu2.png",
+                        "clip": 0.4,
+                        "radius": 0.15
+                    },
+                    {
+                        "name": "lu3",
+                        "show_name": false,
+                        "image": "images/lu3.png",
+                        "clip": 0.4,
+                        "radius": 0.15
+                    },
+                    {
+                        "name": "lu4",
+                        "show_name": false,
+                        "image": "images/lu4.png",
+                        "clip": 0.4,
+                        "radius": 0.15
+                    },
+                    {
+                        "name": "lu5",
+                        "show_name": false,
+                        "image": "images/lu5.png",
+                        "clip": 0.4,
+                        "radius": 0.15,
+                        "enhance_factor": 2
                     }
                 ]
             },
@@ -146,9 +195,58 @@
                 "children":
                 [
                     {
-                        "name": "TBA",
-                        "image": "images/vueltero.png",
-                        "radius": 0.16
+                        "name": "4ta dim",
+                        "show_name": false,
+                        "color": "#FFF7BE",
+                        "text_color": "#211C30",
+                        "title": "La Cuarta#Dimensión",
+                        "text": "Juego de plataformas, llena de trampas#y paredes invisibles, en el cual#el jugador tiene la habilidad#de ver el pasado de los objetos#desplazándose en el tiempo,#la 4ta dimensión.",
+                        "textscale": 0.9,
+                        "radius": 0.2
+                    },
+                    {
+                        "name": "trailer",
+                        "video": "video/trailer.mp4",
+                        "video_loop": true,
+                        "video_autoplay": true,
+                        "show_name": false,
+                        "radius": 0.2,
+                        "textscale": 0.7
+                    },
+                    {
+                        "name": "play",
+                        "image": "images/itch.png",
+                        "url": "https://vueltero.itch.io/la-cuarta-dimensin",
+                        "radius": 0.125
+                    },
+                    {
+                        "name": "4ta1",
+                        "show_name": false,
+                        "image": "images/4ta1.png",
+                        "clip": 0.4,
+                        "radius": 0.15
+                    },
+                    {
+                        "name": "4ta2",
+                        "show_name": false,
+                        "image": "images/4ta2.png",
+                        "clip": 0.4,
+                        "radius": 0.15
+                    },
+                    {
+                        "name": "4ta3",
+                        "show_name": false,
+                        "image": "images/4ta3.png",
+                        "clip": 0.4,
+                        "radius": 0.15
+                    },
+                    {
+                        "name": "4ta4",
+                        "show_name": false,
+                        "image": "images/4ta4.png",
+                        "clip": 0.4,
+                        "radius": 0.15,
+                        "enhance_factor": 2
                     }
                 ]
             },
